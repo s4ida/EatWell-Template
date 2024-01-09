@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wishlistdiv{
+    width: 100%;
+    padding: 5px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 30px;
+.wishlistproducts{
+    padding: 20px;
+    margin-top: 30px;
+    .addtobasketbtn{
+        background-color:white ;
+        border: 3px solid  $hover-color;
+        color: $hover-color;
+        font-weight: bolder;
+        padding: 5px;
+    }
+    .addtobasketbtn:hover{
+background-color: $hover-color;
+color: white;
+transition: 0.3s;
+    }
+    .removefromwishlist{
+        background-color:white ;
+        border: 3px solid  $hover-color;
+        color: $hover-color;
+        font-weight: bolder;
+        padding: 5px;
+    }
+    .removefromwishlist{
+background-color: $hover-color;
+color: white;
+transition: 0.3s;
+    }
+    img{
+        width: 100%;
+    }
+    p{
+        font-weight: bolder;
+    }
+}
+}

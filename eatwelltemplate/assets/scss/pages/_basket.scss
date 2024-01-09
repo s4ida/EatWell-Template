@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#basketdiv{
+    width: 100%;
+    padding: 5px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 30px;
+.basketproducts{
+    padding: 20px;
+    margin-top: 30px;
+    .addtowishlistbtn{
+        background-color:  $hover-color;
+        color: white;
+        padding: 17px;
+        border: 3px solid $hover-color;
+        font-weight: bolder;
+     
+    }
+    .addtowishlistbtn:hover{
+        background-color: white;
+        color: $hover-color;
+        transition: 0.3s;
+    }
+    .removebtn{
+        background-color:white ;
+        border: 3px solid  $hover-color;
+        color: $hover-color;
+        font-weight: bolder;
+        padding: 5px;
+    }
+    .removebtn:hover{
+background-color: $hover-color;
+color: white;
+transition: 0.3s;
+    }
+    img{
+        width: 100%;
+    }
+    p{
+        font-weight: bolder;
+    }
+}
+}

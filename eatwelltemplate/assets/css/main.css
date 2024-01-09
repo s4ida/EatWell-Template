@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wishlistdiv {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+}
+#wishlistdiv .wishlistproducts {
+  padding: 20px;
+  margin-top: 30px;
+}
+#wishlistdiv .wishlistproducts .addtobasketbtn {
+  background-color: white;
+  border: 3px solid #FDA403;
+  color: #FDA403;
+  font-weight: bolder;
+  padding: 5px;
+}
+#wishlistdiv .wishlistproducts .addtobasketbtn:hover {
+  background-color: #FDA403;
+  color: white;
+  transition: 0.3s;
+}
+#wishlistdiv .wishlistproducts .removefromwishlist {
+  background-color: white;
+  border: 3px solid #FDA403;
+  color: #FDA403;
+  font-weight: bolder;
+  padding: 5px;
+}
+#wishlistdiv .wishlistproducts .removefromwishlist {
+  background-color: #FDA403;
+  color: white;
+  transition: 0.3s;
+}
+#wishlistdiv .wishlistproducts img {
+  width: 100%;
+}
+#wishlistdiv .wishlistproducts p {
+  font-weight: bolder;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#basketdiv {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+}
+#basketdiv .basketproducts {
+  padding: 20px;
+  margin-top: 30px;
+}
+#basketdiv .basketproducts .addtowishlistbtn {
+  background-color: #FDA403;
+  color: white;
+  padding: 17px;
+  border: 3px solid #FDA403;
+  font-weight: bolder;
+}
+#basketdiv .basketproducts .addtowishlistbtn:hover {
+  background-color: white;
+  color: #FDA403;
+  transition: 0.3s;
+}
+#basketdiv .basketproducts .removebtn {
+  background-color: white;
+  border: 3px solid #FDA403;
+  color: #FDA403;
+  font-weight: bolder;
+  padding: 5px;
+}
+#basketdiv .basketproducts .removebtn:hover {
+  background-color: #FDA403;
+  color: white;
+  transition: 0.3s;
+}
+#basketdiv .basketproducts img {
+  width: 100%;
+}
+#basketdiv .basketproducts p {
+  font-weight: bolder;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+}
+header .container {
+  width: 95%;
+}
+header .container .nav .collapseDiv {
+  justify-content: flex-end;
+}
+header .container .nav .collapseDiv ul {
+  display: flex;
+  gap: 25px;
+}
+header .container .nav .collapseDiv ul li a {
+  color: rgb(161, 161, 161);
+}
+header .container .nav .collapseDiv ul li a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+main #entrancesection {
+  width: 100%;
+  background-image: url(/assets/img/bg_3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main #entrancesection .container {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+main #entrancesection .container .entrancediv {
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #entrancesection .container .entrancediv h1 {
+  color: white;
+  margin-top: 30px;
+  font-size: 75px;
+}
+main #entrancesection .container .entrancediv h3 {
+  color: white;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #entrancesection .container .entrancediv button {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  padding: 20PX;
+}
+main #entrancesection .container .entrancediv button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+  margin-bottom: 30px;
+  border: 3px solid white;
+}
+main #ourstory {
+  width: 100%;
+}
+main #ourstory .container {
+  width: 95%;
+  margin-top: 30px;
+}
+main #ourstory .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #ourstory .container .row .storytext {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #ourstory .container .row .storytext h6 {
+  color: gray;
+}
+main #ourstory .container .row .storytext h1 {
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 50px;
+}
+main #ourstory .container .row .storytext p {
+  color: gray;
+}
+main #ourstory .container .row .storytext button {
+  background-color: white;
+  color: gray;
+  border: 3px solid gray;
+  padding: 20px;
+}
+main #ourstory .container .row .storytext button:hover {
+  background-color: #FDA403;
+  color: white;
+  border: 3px solid #FDA403;
+  transition: 0.3s;
+}
+main #ourstory .container .row .imgstory {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #ouroffer {
+  width: 100%;
+  margin-top: 30px;
+}
+main #ouroffer .container {
+  width: 95%;
+  margin-top: 30px;
+}
+main #ouroffer .container .titlediv {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #ouroffer .container .titlediv h6 {
+  color: gray;
+  font-size: 25px;
+}
+main #ouroffer .container .titlediv h1 {
+  font-size: 60px;
+}
+main #ouroffer .container .titlediv p {
+  width: 50%;
+  color: gray;
+}
+main #ouroffer .container .row {
+  margin-top: 30px;
+}
+main #ouroffer .container .row .offers {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+main #ouroffer .container .row .offers img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+main #ouroffer .container .row .offers h5 {
+  color: #FDA403;
+  font-weight: bolder;
+  font-family: cursive;
+}
+main #ouroffer .container .row .offers h1 {
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+main #ouroffer .container .row .offers p {
+  color: gray;
+}
+main #ouroffer .container .row .offers button {
+  background-color: #FDA403;
+  color: white;
+  padding: 5px;
+  border: none;
+}
+main #ouroffer .container .row .offers button:hover {
+  background-color: rgb(206, 138, 12);
+  transition: 0.3s;
+}
+main #apisection {
+  width: 100%;
+  margin-top: 30px;
+}
+main #apisection .container {
+  width: 95%;
+  margin-top: 30px;
+}
+main #apisection .container .titlediv {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #apisection .container .titlediv h6 {
+  color: gray;
+  font-size: 25px;
+}
+main #apisection .container .titlediv h1 {
+  font-size: 75px;
+}
+main #apisection .container .titlediv p {
+  width: 50%;
+  color: gray;
+}
+main #apisection .container .filterandsearchdiv {
+  display: flex;
+  gap: 30px 30px;
+  padding: 25px;
+}
+main #apisection .container .filterandsearchdiv #filterdata {
+  border: 3px solid #FDA403;
+  background-color: white;
+  font-weight: bolder;
+  color: #FDA403;
+}
+main #apisection .container .filterandsearchdiv form input {
+  border: 3px solid #FDA403;
+  background-color: white;
+  color: #FDA403;
+  padding-left: 10px;
+  padding: 10px;
+}
+main #apisection .container .filterandsearchdiv form button {
+  background-color: #FDA403;
+  color: white;
+  padding: 10px;
+  border: 3px solid #FDA403;
+  font-weight: bolder;
+}
+main #apisection .container .filterandsearchdiv form button:hover {
+  background-color: white;
+  color: #FDA403;
+  transition: 0.3s;
+}
+main #apisection .container #apidiv {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main #apisection .container #apidiv .proBox {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+main #apisection .container #apidiv .proBox .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+main #apisection .container #apidiv .proBox .addtowishlistbtn {
+  background-color: #FDA403;
+  color: white;
+  padding: 17px;
+  border: 3px solid #FDA403;
+  font-weight: bolder;
+}
+main #apisection .container #apidiv .proBox .addtowishlistbtn:hover {
+  background-color: white;
+  color: #FDA403;
+  transition: 0.3s;
+}
+main #apisection .container #apidiv .proBox .addtobasketbtn {
+  background-color: white;
+  border: 3px solid #FDA403;
+  color: #FDA403;
+  font-weight: bolder;
+  padding: 5px;
+}
+main #apisection .container #apidiv .proBox .addtobasketbtn:hover {
+  background-color: #FDA403;
+  color: white;
+  transition: 0.3s;
+}
+main #apisection .container #apidiv img {
+  width: 100%;
+}
+main #apisection .container #apidiv .myDiv {
+  width: 30%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #FDA403;
+  padding: 20px;
+}
+main #apisection .container #apidiv .myDiv .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+main #apisection .container #apidiv .myDiv .addtowishlistbtn {
+  background-color: #FDA403;
+  color: white;
+  padding: 17px;
+  border: 3px solid #FDA403;
+  font-weight: bolder;
+}
+main #apisection .container #apidiv .myDiv .addtowishlistbtn:hover {
+  background-color: white;
+  color: #FDA403;
+  transition: 0.3s;
+}
+main #apisection .container #apidiv .myDiv .addtobasketbtn {
+  background-color: white;
+  border: 3px solid #FDA403;
+  color: #FDA403;
+  font-weight: bolder;
+  padding: 5px;
+}
+main #apisection .container #apidiv .myDiv .addtobasketbtn:hover {
+  background-color: #FDA403;
+  color: white;
+  transition: 0.3s;
+}
+main #apisection .container #apidiv img {
+  width: 100%;
+}
+main #gallery {
+  width: 100%;
+  margin-top: 30px;
+}
+main #gallery .container {
+  width: 95%;
+  margin-top: 30px;
+}
+main #gallery .container .titlediv {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #gallery .container .titlediv h1 {
+  font-size: 75px;
+}
+main #gallery .container .titlediv p {
+  width: 50%;
+  color: gray;
+}
+main #formsection {
+  width: 100%;
+}
+main #formsection .container {
+  margin-top: 30px;
+  padding: 30px;
+  width: 90%;
+}
+main #formsection .container .titlediv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+main #formsection .container .titlediv p {
+  color: gray;
+}
+main #formsection .container .row #myform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+}
+main #formsection .container .row #myform .inputdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main #formsection .container .row #myform .inputdiv input {
+  width: 100%;
+  border-radius: 0px;
+  padding: 15px;
+  background-color: #E6E6E6;
+  width: 100%;
+}
+main #formsection .container .row #myform .btndiv {
+  width: 50%;
+}
+main #formsection .container .row #myform .btndiv .textarea {
+  border-radius: 0px;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #E6E6E6;
+  width: 100%;
+}
+main #formsection .container .row #myform .btndiv button {
+  background-color: #FDA403;
+  color: white;
+  padding: 10px;
+  border: 3px solid #FDA403;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+main #formsection .container .row #myform .btndiv button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+main #formsection .container .row .formimg span {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media screen and (max-width: 400px) {
+  main main #apisection .container .filterandsearchdiv {
+    display: flex;
+    flex-direction: column;
+  }
+  main main #apisection .container .filterandsearchdiv input {
+    margin-bottom: 20px;
+  }
+}
+
+footer {
+  width: 100%;
+}
+footer .container {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
